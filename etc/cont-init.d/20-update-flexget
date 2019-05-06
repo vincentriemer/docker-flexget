@@ -16,7 +16,8 @@ apk add --update --no-cache --virtual=build-dependencies \
     build-base \
     apk-tools \
     python-dev \
-    gcc
+    gcc \
+    nodejs
 
 # Dependency for libtorrent-rasterbar.
 apk add --no-cache \
