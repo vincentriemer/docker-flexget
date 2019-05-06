@@ -13,6 +13,7 @@ pip install -U rarfile
 # Install libtorrent-rasterbar, a dependency for e.g.
 # flexget plugin `convert_magnet`.
 apk add --update --no-cache --virtual=build-dependencies \
+    .build-deps \
     apk-tools \
     gcc
 
