@@ -28,4 +28,4 @@ apk add --no-cache \
     libtorrent-rasterbar@testing
 
 # Install flexget last (it might force specific versions of other packages).
-pip install -U flexget cfscrape
+pip install -U flexget cfscrape cloudscraper
